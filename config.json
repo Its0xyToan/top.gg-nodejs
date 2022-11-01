@@ -9,5 +9,8 @@
   "topgg": {
     "token": "Your top.gg webhook token",
     "mdp": "Your top.gg webhook autorisation pass (recomended to be strong)"
+  },
+  "server": {
+    "port": "You need to use a hosting service for this one, put the port that the host has gived to you."
   }
 }
