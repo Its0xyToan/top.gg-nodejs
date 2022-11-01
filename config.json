@@ -3,6 +3,9 @@
     "token": "Your bot's token",
     "id": "Youre bot's ID"
   },
+  "channels": {
+    "vote": "Your Discord vote channel ID"
+  },
   "topgg": {
     "token": "Your top.gg webhook token",
     "mdp": "Your top.gg webhook autorisation pass (recomended to be strong)"
