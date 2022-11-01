@@ -21,7 +21,7 @@ dbl.webhook.on('vote', async vote => {
   
    let channelForWebhooks;
    channelForWebhooks = await client.channels.resolve(config.channels.vote);
-   if(channelForWebhooks) await channelForWebhooks.send(`Thank you to have voted <@${userID}> (\`${userID}\`) ! \n-> <https://top.gg/bot/${config.bot.id}/vote> <-`).then((msg) => { msg.react("❤️")})
+   if(channelForWebhooks) await channelForWebhooks.send(`Thank you to vote <@${userID}> (\`${userID}\`) ! \n-> <https://top.gg/bot/${config.bot.id}/vote> <-`).then((msg) => { msg.react("❤️")})
 })
 
 client.login(config.bot.token)
