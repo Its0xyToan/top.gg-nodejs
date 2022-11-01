@@ -5,7 +5,7 @@ const config = require("./config.js")
 
 // ******************* Variables
 const client = new Discord.Client({ intents: ['GUILDS', 'GUILD_MEMBERS', 'GUILD_MESSAGES', 'GUILD_VOICE_STATES', 'DIRECT_MESSAGES', 'GUILD_PRESENCES', 'GUILD_BANS'], partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-const dbl = new DBL(config.topgg.token, { webhookPort: 3012, webhookAuth: config.topgg.mdp });
+const dbl = new DBL(config.topgg.token, { webhookPort: config.server.port, webhookAuth: config.topgg.mdp });
 // ******************* Code
 
 dbl.webhook.on('ready', hook => {
