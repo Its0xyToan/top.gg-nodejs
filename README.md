@@ -1,1 +1,4 @@
-# top.gg-nodejs
+# Top.gg API in Node.js
+
+## Requirements
+
