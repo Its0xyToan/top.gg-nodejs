@@ -1,0 +1,23 @@
+{
+  "name": "top.gg-nodejs",
+  "version": "1.0.0",
+  "description": "Take top.gg votes and put them in a discord channel !",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Its0xyToan/top.gg-nodejs.git"
+  },
+  "author": "Its0xyToan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Its0xyToan/top.gg-nodejs/issues"
+  },
+  "homepage": "https://github.com/Its0xyToan/top.gg-nodejs#readme",
+  "dependencies": {
+    "dblapi.js": "^2.4.1",
+    "discord.js": "13.12"
+  }
+}
